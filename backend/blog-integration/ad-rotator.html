@@ -1,0 +1,8 @@
+<script>
+  const ads = [
+    { img: 'https://yourcdn.com/ad1.jpg', link: 'https://example.com/offer1' },
+    { img: 'https://yourcdn.com/ad2.jpg', link: 'https://example.com/offer2' }
+  ];
+  const random = ads[Math.floor(Math.random() * ads.length)];
+  document.write(`<a href="${random.link}" target="_blank"><img src="${random.img}" style="width:100%"/></a>`);
+</script>
