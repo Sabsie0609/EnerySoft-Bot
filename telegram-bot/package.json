@@ -1,0 +1,9 @@
+{
+  "name": "enerysoft-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to reward users for watching content",
+  "main": "bot.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.57.0"
+  }
+}
